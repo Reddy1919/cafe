@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem ;
+    text-align: center;
+}
+nav img{
+    background-size: cover;
+    height: 5rem;
+    width: 15rem;
+}
+/* nav h1{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: x-large;  
+ color: coral;  
+} */
+nav div {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav h3 {
+    display: inline;
+    margin:  1rem;
+}
+
+nav  h3 a {
+    color: white;
+}
+nav  h3 a:hover{
+    background-color:#534091;
+    color: #181818;
+    transition: 0.8ms;
+}
+
+.banner {
+    /* background-image: url('pngwing.com\ \(1\).png'); */ 
+    background-size: cover;
+    background-position: center;
+    /* color: white;
+    text-align: center;*/
+    /* padding: 20rem ;  */
+    object-fit: contain;
+    max-width: 30%;
+    max-height:20%;
+    max-block-size: 50%;
+    padding: 0px 50px ;
+}
+
+.dis {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+    text-align: center;
+}
+.wel{
+    text-align: center;
+    /* border: 2px solid #000; */
+    /* margin: 20px 30px; */
+    transition: transform 600ms;
+}
+.wel:hover{
+    transform: scale(1.09);
+}
+.dist{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+
+}
+.menu{
+    /* border: 2px solid #000; */
+    /* margin: 20px 30px; */
+    transition: transform 600ms;
+}
+.menu:hover{
+    transform: scale(1.09);
+}
+.about{
+    /* border: 2px solid #000; */
+    /* margin: 20px 30px; */
+    transition: transform 600ms;
+}
+.about:hover{
+    transform: scale(1.09);
+}
+.contact{
+    /* border: 2px solid #000; */
+    /* margin: 20px 30px; */
+    transition: transform 600ms;
+}
+.contact:hover{
+    transform: scale(1.09);
+}
+#myVideo {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+   .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding-top: 20vh;
+  }
+  .card-welcome {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+  }
+  .card-welcome h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .card-welcome p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+.card {
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 40px);
+}
+.card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.card button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.card button:hover {
+  background-color: #555;
+}
